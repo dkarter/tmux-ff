@@ -23,7 +23,7 @@ tmux_panes() {
 
 fzf_tmux_select_pane() {
     local selected
-    selected=$(cat | fzf-tmux --ansi --no-sort -u 20%)
+    selected=$(cat | fzf-tmux --ansi --no-sort -p)
 
     [[ -z "$selected" ]] && return
 
