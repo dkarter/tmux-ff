@@ -6,10 +6,10 @@ fi
 
 tmux_panes() {
     local window_name_width
-    window_name_width=$(tmux list-panes -s -F '#W' | wc -L)
+    window_name_width=$(tmux list-panes -s -F '#W' | gwc -L)
 
     local command_width
-    command_width=$(tmux list-panes -s -F '#{pane_current_command}' | wc -L)
+    command_width=$(tmux list-panes -s -F '#{pane_current_command}' | gwc -L)
 
     local panes
     panes=$(tmux list-panes -s -F '#{window_index} #W #{pane_index} #{pane_current_command} #{pane_current_path}')
