@@ -28,7 +28,6 @@ fzf_tmux_select_pane() {
 
     read -r win_id <<<"$(sed 's/ \+/ /g' <<<"$selected" | awk -F '[: ]' '{ print $1 }')"
 
-    echo $win_id
     tmux select-window -t "$win_id"
 }
 
