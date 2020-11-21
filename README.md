@@ -8,6 +8,17 @@ Tmux plugin for selecting window/pane with fuzzy finder (utilizing Tmux 3.2 floa
 ## Requirments
 - [fzf](https://github.com/junegunn/fzf)
 - [Tmux v3.2b and up](https://github.com/tmux/tmux/releases)
+- [Tmux Plugin Manager (tpm)](https://github.com/tmux-plugins/tpm)
+
+## Install via TPM
+
+Add this line to your `~/.tmux.conf`
+
+```tmux
+set -g @plugin 'dkarter/tmux-ff'
+```
+
+Reload configuration, then press `prefix` + `I`.
 
 ## Key bindings
 - <kbd>prefix</kbd>–<kbd>P</kbd> — selects window with fzf-tmux
