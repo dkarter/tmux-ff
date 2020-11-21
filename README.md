@@ -7,7 +7,8 @@ Tmux plugin for selecting window/pane with fuzzy finder (utilizing Tmux 3.2 floa
 
 ## Requirments
 - [fzf](https://github.com/junegunn/fzf)
-- [Tmux v3.2b and up](https://github.com/tmux/tmux/releases)
+- [Tmux v3.2-rc and up](https://github.com/tmux/tmux/releases)
+  - Since Tmux 3.2 has not been officially released, I suggest compiling Tmux from HEAD (on mac you can run `brew install tmux --HEAD`)
 - [Tmux Plugin Manager (tpm)](https://github.com/tmux-plugins/tpm)
 
 ## Install via TPM
@@ -38,4 +39,4 @@ Now you can use <kbd>Cmd</kbd>-<kbd>P</kbd> to jump to a window and <kbd>Cmd</kb
 
 ## Credits
 Based on excellent work by @sssho in https://github.com/sssho/tmux-ff-pane
-Since this is targeting a beta version of Tmux and changes the shortcuts it didn't feel right to make this an upstream contribution.
+Since this is targeting a release candidate version of Tmux and changes the shortcuts it didn't feel right to make this an upstream contribution.
