@@ -1,6 +1,10 @@
 # TMUX-FF
 Tmux plugin for selecting window/pane with fuzzy finder (utilizing Tmux 3.2 floating windows)
 
+## Demo
+
+![demo](./img/demo.gif)
+
 ## Requirments
 - [fzf](https://github.com/junegunn/fzf)
 - [Tmux v3.2b and up](https://github.com/tmux/tmux/releases)
